@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
   }
 
+a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
 
 .landing{
     min-height: 100vh;
@@ -62,7 +67,7 @@ nav{
         padding: 0rem 2rem;
     }
     .nav-links li{
-        display: none;
+        font-size: 12px;
     }
     .first{
         font-size: 12px;

@@ -5,6 +5,11 @@
 ::-webkit-scrollbar-thumb {
 background: #FF533C;
 border-radius: 10px;
+width: 10px;
+}
+
+::-webkit-slider-runnable-track{
+  width: 0px;
 }
 
 @media only screen and (max-width: 768px) {
